@@ -1,0 +1,354 @@
+<script setup>
+</script>
+
+<template>
+ <section class="main">
+  <nav>
+    <button>niles.</button>
+  </nav>
+  <div>
+			<main data-scroll-container>
+				<div class="content">
+					<div class="gallery">
+							<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" :style="{ backgroundImage: 'url(src/components/img/demo3/1.jpg)' }" data-scroll data-scroll-speed="-0.8">
+                
+              </div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Moonraker</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">01</span>
+								<p class="gallery__item-tags">
+									<span>#house</span>
+									<span>#green</span>
+									<span>#chair</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/2.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Nacarat</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">02</span>
+								<p class="gallery__item-tags">
+									<span>#love</span>
+									<span>#hug</span>
+									<span>#people</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/3.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Selkie</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">03</span>
+								<p class="gallery__item-tags">
+									<span>#hike</span>
+									<span>#nature</span>
+									<span>#rain</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/4.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Thalassic</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">04</span>
+								<p class="gallery__item-tags">
+									<span>#free</span>
+									<span>#wood</span>
+									<span>#fire</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/5.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Uroboros</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">05</span>
+								<p class="gallery__item-tags">
+									<span>#cloud</span>
+									<span>#lake</span>
+									<span>#frog</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/6.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Waitron</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">06</span>
+								<p class="gallery__item-tags">
+									<span>#tent</span>
+									<span>#flower</span>
+									<span>#love</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/7.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Soucouyant</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">07</span>
+								<p class="gallery__item-tags">
+									<span>#water</span>
+									<span>#bottle</span>
+									<span>#hand</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/8.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Periapt</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">08</span>
+								<p class="gallery__item-tags">
+									<span>#night</span>
+									<span>#stars</span>
+									<span>#moon</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/9.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Cyanic</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">09</span>
+								<p class="gallery__item-tags">
+									<span>#sun</span>
+									<span>#light</span>
+									<span>#air</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/10.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Martlet</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">10</span>
+								<p class="gallery__item-tags">
+									<span>#vital</span>
+									<span>#fog</span>
+									<span>#close</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/11.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Eurhythmic</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">11</span>
+								<p class="gallery__item-tags">
+									<span>#cover</span>
+									<span>#bed</span>
+									<span>#window</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						<figure class="gallery__item">
+							<div class="gallery__item-img"><div class="gallery__item-imginner" style="background-image: url(src/components/img/demo3/12.jpg)" data-scroll data-scroll-speed="-0.8"></div></div>
+							<figcaption class="gallery__item-caption">
+								<h2 class="gallery__item-title" data-scroll data-scroll-speed="1">Dariole</h2>
+								<span class="gallery__item-number" data-scroll data-scroll-speed="1.5">12</span>
+								<p class="gallery__item-tags">
+									<span>#sad</span>
+									<span>#mouth</span>
+									<span>#tear</span>
+								</p>
+								<a class="gallery__item-link">explore</a>
+							</figcaption>
+						</figure>
+						</div>
+				</div>
+			</main>
+		</div>
+ </section>
+</template>
+
+<style lang="scss" scoped>
+.main {
+  --color-text: #000;
+	--color-bg: #dedede;
+	--color-link: #828da1;
+	--color-link-hover: #cc0000;
+	--color-gallery-title: #d9d0be;
+	--color-gallery-number: #000;
+	--color-gallery-link: #fff;
+	--color-gallery-link-bg: #cc0000;
+	--color-gallery-link-hover: #0e0e0d;
+	--color-gallery-link-bg-hover: #d9d0be;
+	--color-frame-subtitle: #727272;
+	--cursor-stroke: none;
+	--cursor-fill: #cc0000;
+	--cursor-stroke-width: 1px;
+  nav {
+    padding: 1.5rem 3%;
+  }
+  button {
+    height: 32px;
+    width: 80px;
+    // padding: 1rem;
+    border: 1px solid $black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 2rem;
+    color: $black;
+    font-family: "cabinet-grotest", sans-serif;
+    font-weight: 400;
+    line-height: 120%;
+    background-color: transparent;
+  }
+  .content {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 13rem);
+	position: relative;
+	justify-content: flex-start;
+}
+  .gallery {
+	display: flex;
+	padding-right: 3rem;
+	padding-left: 3rem;
+}
+
+.gallery__item {
+	margin: 0;
+	display: grid;
+	grid-template-areas: '... ...' 
+						 'gallery-image gallery-image'
+						 'gallery-image gallery-image' ;
+	grid-template-columns: 8rem 25vh;
+	grid-template-rows: 4rem 45vh 3rem;
+}
+
+.gallery__item-img {
+	grid-area: gallery-image;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	transform-origin: 50% 100%;
+	will-change: transform;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.gallery__item-imginner {
+	background-size: cover;
+    background-position: 50% 25%;
+	width: calc(100% + 10vw);
+	margin-left: -5vw;
+    height: 100%;
+    will-change: transform;
+}
+.gallery__item-caption {
+	grid-area: 1 / 1 / 4 / 3;
+	display: grid;
+	grid-template-areas: 'gallery-number gallery-number' 
+						 'gallery-link ...'
+						 'gallery-link gallery-tags' ;
+	grid-template-columns: 8rem auto;
+	grid-template-rows: 4rem auto 3rem;
+	position: relative;
+	z-index: 1;
+}
+
+.gallery__item-number {
+	grid-area: gallery-number;
+	font-size: 10vw;
+	justify-self: center;
+	color: var(--color-gallery-number);
+	cursor: pointer;
+	color: transparent;
+	-webkit-text-stroke: 1px #645c5b;
+	text-stroke: 1px #645c5b;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+}
+
+.gallery__item-title {
+	grid-area: gallery-title;
+	margin: 0;
+	font-size: 4rem;
+	font-size: clamp(2rem,5vw,4rem);
+	color: var(--color-gallery-title);
+	display: none;
+}
+
+.gallery__item-number,
+.gallery__item-title,
+.gallery__text {
+	font-family: moret, serif;
+	font-weight: 700;
+	align-self: center;
+}
+
+.gallery__item-link {
+	grid-area: gallery-link;
+	align-self: end;
+	font-size: 1.5rem;
+	background: var(--color-gallery-link-bg);
+	color: var(--color-gallery-link);
+	text-decoration: underline;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	display: none;
+}
+
+.gallery__item-link:focus,
+.gallery__item-link:hover {
+	background: var(--color-gallery-link-bg-hover);
+	color: var(--color-gallery-link-hover);
+	text-decoration: none;
+}
+
+.gallery__item-tags {
+	grid-area: gallery-tags;
+	justify-self: end;
+	font-size: 1.5rem;
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 1rem;
+	cursor: pointer;
+	display: none;
+}
+
+.gallery__text {
+	font-size: 20vw;
+	line-height: 0.8;
+	text-transform: lowercase;
+	color: transparent;
+	-webkit-text-stroke: 1px #645c5b;
+	text-stroke: 1px #645c5b;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	position: absolute;
+	right: 0;
+}
+
+.gallery__text:first-child {
+	left: -1vw;
+	right: auto;
+}
+
+.gallery__text span {
+	display: block;
+}
+}
+</style>
